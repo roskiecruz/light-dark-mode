@@ -21,7 +21,7 @@ function switchMode(mode){
     document.documentElement.setAttribute('data-theme',mode);
     nav.style.backgroundColor = (mode === 'dark') ? darkBG : whiteBG;
     textBox.style.backgroundColor = (mode === 'dark') ? whiteBG : darkBG;
-    toggleIcon.children[0].textContent = `${mode.charAt(0).toUpperCase() + mode.slice(1)} Mode`;
+    toggleIcon.children[0].textContent = (mode === 'dark') ? 'Dark Mode' : 'Light Mode';
     (mode === 'dark') ? toggleIcon.children[1].classList.replace(sun, moon) : toggleIcon.children[1].classList.replace(moon, sun);
     sourceChanger(design, 'design', mode);
     sourceChanger(develop, 'develop', mode);
