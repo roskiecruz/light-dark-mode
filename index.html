@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
+    <!-- Dark mode switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox" name="" id="">
+            <div class="slider round"></div>
+        </label>
+    </div>
     <!-- Navigation -->
     <nav id="nav">
         <a href="#home">Home</a>
@@ -26,15 +37,43 @@
     <!-- About section -->
     <section id="about">
         <h1>What I do best</h1>
+        <div class="about__container">
+            <div class="about__image-container">
+                <h2>I design experiences</h2>
+                <img src="public/img/design_light.svg" alt="I design experiences" id="design_image">
+            </div>
+            <div class="about__image-container">
+                <h2>I develop solutions</h2>
+                <img src="public/img/develop_light.svg" alt="I develop solutions" id="develop_image">
+            </div>
+            <div class="about__image-container">
+                <h2>I dream up the future</h2>
+                <img src="public/img/dream_light.svg" alt="I dream up the future" id="dream_image">
+            </div>
+        </div>
     </section>
     <!-- Project section -->
     <section id="projects">
         <h1>What I've done so far</h1>
-        <h2>Insert buttons here</h2>
+        <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi tenetur quaerat voluptatum vel ex. Hic repudiandae, aliquid similique atque nulla asperiores rerum deleniti illum, numquam ipsam assumenda autem ratione? Odit?</p>
+        </div>
     </section>
     <!-- Contact section -->
     <section id="contact">
-        <h1>Insert FontAwesome icons here</h1> 
+        <h1>Contact Me</h1> 
+        <div class="social-icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
     </section>
     <!-- Script -->
     <script src="public/js/script.js"></script>

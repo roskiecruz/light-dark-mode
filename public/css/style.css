@@ -46,7 +46,7 @@ section {
 
 h1 {
   font-family: Marcellus, sans-serif;
-  font-size: 100px;
+  font-size: 70px;
   margin-bottom: 0;
 }
 
@@ -88,11 +88,12 @@ a:focus {
 }
 
 /* About section */
-.about-container {
+.about__container {
   display: flex;
+  margin-top: 1.8rem;
 }
 
-.image-container {
+.about__image-container {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   padding: 10px 20px;
