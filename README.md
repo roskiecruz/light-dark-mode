@@ -1,5 +1,5 @@
 # Light and dark mode
-An experiment on CSS variables and an exercise on a potential portfolio
+An experiment on CSS variables, local storage, and an exercise on a potential portfolio
 
 Resources used:
 - Google Fonts
